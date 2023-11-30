@@ -1,0 +1,112 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: white;
+  text-align: center;
+}
+
+.Header {
+  gap: 10px;
+}
+.Technology {
+}
+
+.Artificial {
+  text-align: center;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.Supervisor {
+  height: fit-content;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-radius: 10px;
+  border-style: groove;
+  display: flex;
+  width: 20rem;
+  flex-direction: column;
+  border-style: groove;
+  border-top-color: aqua;
+}
+
+.twins {
+  display: flex;
+  flex-direction: column;
+  border-width: 10rem;
+  gap: 20px;
+}
+
+.TeamBuilder {
+  height: fit-content;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 20rem;
+  border-radius: 10px;
+  border-style: groove;
+  display: flex;
+  flex-direction: row;
+  border-top-color: brown;
+}
+.TeamKarma {
+  height: fit-content;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-radius: 10px;
+  width: 20rem;
+  border-top-color: red;
+  border-style: groove;
+  display: flex;
+  flex-direction: column;
+}
+
+.Calculator {
+  height: fit-content;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-radius: 10px;
+  border-style: groove;
+  display: flex;
+  width: 20rem;
+  flex-direction: column;
+  border-style: groove;
+  border-top-color: blue;
+}
+
+.ImgSup {
+  text-align: right;
+  padding: 0px;
+}
+
+.ImgBuild {
+  text-align: right;
+  padding: 0px;
+}
+
+.ImgKarma {
+  text-align: right;
+  padding: 0px;
+}
+
+.ImgCalc {
+  text-align: right;
+  padding: 0px;
+}
+
+@media ((min-width: 320px) and (max-width:767px)) {
+  .Artificial {
+    text-align: center;
+  }
+
+  /*  .main{
+        overflow: hidden;
+        padding: 0px 10px; */
+  .cards {
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 1rem;
+  }
+}
